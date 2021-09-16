@@ -31,10 +31,10 @@
 # An example of a change is to change the number of images extracted in the --max_images=1000 argument to the
 # python dataset_tool.py create_lsun command in job 3 (extractImages) below
 
-#on:
-#  github:
-#    branches:
-#      only: main
+on:
+  github:
+    branches:
+      only: main
 
 # Our download and extract steps do not require a GPU, so we default to a C3 machine for all steps
 
