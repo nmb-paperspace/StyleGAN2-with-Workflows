@@ -40,7 +40,7 @@ on:
 
 defaults:
   resources:
-    instance-type: C3 # C5 will run these steps faster if available, but costs more
+    instance-type: C7 # C5 will run these steps faster if available, but costs more
 
 jobs:
 
